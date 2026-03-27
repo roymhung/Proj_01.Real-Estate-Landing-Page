@@ -28,7 +28,7 @@ a {
   text-align: center;
   font-size: 1.4rem;
   font-weight: 500;
-  border-radius: 8px;
+  border-radius: 12px;
   background: var(--primary-color);
 }
 
@@ -45,10 +45,10 @@ a {
 
 /* ========= Header ========== */
 .header {
-  background: #e6f0ff;
-  height: 100vh;
-  height: 736px;
   position: relative;
+  width: 100vw;
+  height: 736px;
+  background: #e6f0ff;
 }
 
 .navbar {
@@ -67,10 +67,10 @@ a {
 }
 
 .navbar ul a {
-  color: #4f5361;
-  font-weight: 500;
-  font-size: 1.4rem;
   padding: 8px 1.4rem;
+  color: #4f5361;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .navbar ul a:hover {
@@ -107,16 +107,16 @@ a {
   color: #000336;
   margin-top: 8px;
   font-size: 6.2rem;
-  font-weight: 700;
   line-height: 1.19;
+  font-weight: 700;
 }
 
 .hero .desc {
   margin-top: 30px;
   color: #5a6473;
   font-size: 1.8rem;
-  font-weight: 400;
   line-height: 1.78;
+  font-weight: 400;
   text-transform: capitalize;
 }
 
@@ -169,31 +169,71 @@ a {
   color: #000339;
   text-align: center;
   font-size: 3.5rem;
-  font-weight: 600;
   line-height: 1;
+  font-weight: 600;
 }
 
 .guides .sub-title::before {
   position: absolute;
   top: -10px;
   left: 50%;
-  transform: translateX(-50%);
-  content: "";
   display: inline-block;
   width: 41px;
   height: 4px;
+  content: "";
+  transform: translateX(-50%);
   background: var(--primary-color);
   border-radius: 12px;
 }
 
 .guides .desc {
-  color: #687690;
-  text-align: center;
   width: 459px;
   max-width: 100%;
-  margin: 20px auto 0;
-  margin-top: 16px;
+  margin: 16px auto 0;
+  color: #687690;
+  text-align: center;
   font-size: 1.6rem;
   line-height: 1.88;
   font-weight: 400;
+}
+
+.list-guide {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.guide-item {
+  margin: 0 70px;
+  text-align: center;
+}
+
+.guide-item .title {
+  margin-top: 24px;
+  color: #000339;
+  font-size: 1.8rem;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.guide-item .link {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.guide-item .arrow {
+  margin-left: 6px;
+}
+
+.guide-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.guide-cta .btn {
+  min-width: 170px;
 }
