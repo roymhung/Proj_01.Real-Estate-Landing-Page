@@ -43,10 +43,11 @@ a {
   margin-right: auto;
 }
 
-/* header */
+/* ========= Header ========== */
 .header {
   background: #e6f0ff;
   height: 100vh;
+  height: 736px;
   position: relative;
 }
 
@@ -128,4 +129,32 @@ a {
   position: absolute;
   right: calc((100vw - 1110px) / 2 - 100px);
   bottom: 0;
+}
+
+/* ========= Clients ========== */
+.clients {
+  margin-top: 120px;
+}
+
+.clients .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients .desc {
+  color: #687690;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.clients .row-desc {
+  margin-top: 23px;
+}
+
+.clients .images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 96px;
 }
