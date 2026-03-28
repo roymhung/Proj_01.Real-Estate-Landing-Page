@@ -488,3 +488,52 @@ a {
   font-size: 1.8rem;
   color: #7b8087;
 }
+
+/* ========= Subscrption ========== */
+.subcription {
+  margin-top: 90px;
+}
+
+.subcription .body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 370px;
+  background: #063183;
+  border-radius: 20px;
+}
+
+.subcription .info {
+  width: 671px;
+  max-width: 100%;
+  padding: 0 80px;
+}
+
+.subcription .sub-title {
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.subcription .desc {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.88;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.subcription .btn {
+  min-width: 151px;
+  margin-top: 20px;
+  color: #063183;
+  background-color: #fff;
+}
+
+.subcription .image-sub {
+  position: absolute;
+  right: 221px;
+  bottom: 0;
+}
