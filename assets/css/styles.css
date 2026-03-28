@@ -380,6 +380,7 @@ a {
   padding: 45px 22px 40px;
   border-radius: 0 0 12px 12px;
   background-color: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .stats-trend .value {
@@ -405,6 +406,25 @@ a {
   height: 1px;
   margin-top: 25px;
   background: #000;
+}
+
+.stats .avatar-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 14px;
+  margin-top: 26px;
+}
+
+.stats .avatar-group {
+  display: flex;
+}
+
+.stats .avatar {
+  width: 16px;
+  height: 16px;
+  margin-left: -3px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .stats .img-block .stats-image {
